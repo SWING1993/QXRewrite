@@ -1,10 +1,11 @@
 /*
 AdBlocker 解锁Premium
 
-[rewrite_local]
-https://api.adblockpro.app/verify url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/Github.js
 
-[mitm]
+[rewrite_local]
+https://api.adblockpro.app/verify url script-response-body https://raw.githubusercontent.com/SWING1993/QXRewrite/main/AdBuster.js
+
+[MITM]
 hostname = api.adblockpro.app
 */
 
